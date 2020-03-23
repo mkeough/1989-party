@@ -9,4 +9,44 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url(./images/1980\ poster.jpg);
+}
+
+.navbar li a {
+  color: white;
+  padding: 2rem;
+  align-content: center;
+  text-decoration: none;
+  background-color: black;
+}
+
+.navbar ul {
+  color: white;
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.posters {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  color: black;
+}
+
+.moviePoster {
+  border: solid rgb(247, 247, 53);
+  background-color: rgba(202, 27, 27, 0.87);
+  margin: 1rem;
+  padding: 2rem 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 68, 255);
+  background-color: darkgrey;
+  font-size: 5rem;
 }
